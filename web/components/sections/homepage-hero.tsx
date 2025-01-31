@@ -16,7 +16,7 @@ export const HomepageHero = () => (
     </Button>*/}
     <HeroTitle className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:200ms]">
       AI data layer
-      <br className="hidden md:block" /> for small businesses
+      <br className="hidden md:block" /> of small businesses
     </HeroTitle>
     <HeroSubtitle className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
       Farsight unlocks real-time, structured insights on millions of small business and freelancers
