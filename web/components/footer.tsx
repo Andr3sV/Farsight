@@ -14,7 +14,6 @@ const footerLinks = [
       { title: "Pricing", href: "#" },
       { title: "Changelog", href: "#" },
       { title: "Docs", href: "#" },
-      { title: "Linear Method", href: "#" },
       { title: "Download", href: "#" },
     ],
   },
@@ -53,7 +52,7 @@ export const Footer = () => (
       <div>
         <div className="flex h-full flex-row justify-between lg:flex-col">
           <div className="flex items-center text-grey">
-            <Logo className="mr-4 h-4 w-4" /> Linear - Designed worldwide
+            <Logo className="mr-4 h-4 w-4" /> Farsight - Intelligence Without Limits
           </div>
           <div className="mt-auto flex space-x-4 text-grey">
             <TwitterIcon />

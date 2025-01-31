@@ -58,22 +58,6 @@ export const SetDirection = () => {
           },
         ]}
       />
-      <Features.Cards
-        features={[
-          {
-            image: "/card-updates.webp",
-            imageClassName: "top-[55%] md:top-[40%] w-full left-[7%]",
-            title: "Project updates",
-            text: "Keep everyone up-to-date on the health and progress of projects.",
-          },
-          {
-            image: "/card-roadmaps.webp",
-            imageClassName: "top-[55%] md:top-[40%] w-full left-[2%]",
-            title: "Focus on the big picture",
-            text: "Explore every company project in one view to easily identify what needs attention.",
-          },
-        ]}
-      />
     </Features>
   );
 };

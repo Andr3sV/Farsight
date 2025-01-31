@@ -1,0 +1,10 @@
+self.__RSC_CSS_MANIFEST={
+  "__entry_css_mods__": {
+    "/Users/andresvillamizar/repos/Farsight/web/app/page": [
+      "/Users/andresvillamizar/repos/Farsight/web/styles/globals.css"
+    ]
+  },
+  "/Users/andresvillamizar/repos/Farsight/web/app/layout.tsx": [
+    "/Users/andresvillamizar/repos/Farsight/web/styles/globals.css"
+  ]
+}
