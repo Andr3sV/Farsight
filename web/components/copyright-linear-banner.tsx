@@ -33,7 +33,7 @@ export const CopyrightLinearBanner = () => {
         </p>
         <p>
           <Button href="https://linear.app" size="large" target="_blank">
-            Visit Linear's website
+            Visit website
           </Button>
         </p>
       </div>
