@@ -21,9 +21,10 @@ export const CopyrightLinearBanner = () => {
     Cookies.set(cookieBannerName, "true", { expires: 365 });
   };
 
+  
   if (!isCookieBannerVisible) return null;
 
-  
+
   return (
     <div className="fixed right-[4rem] bottom-[4rem] flex w-[65rem] max-w-[95%] items-start rounded-md border border-transparent-white p-8 text-[2rem] backdrop-blur-[12px]">
       <div className="space-y-3">
