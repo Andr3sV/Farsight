@@ -24,7 +24,7 @@ export const HomepageHero = () => (
     </HeroSubtitle>
     <Button
       className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:600ms]"
-      href="https://www.notion.so/orbidi/193f25573a1e80ec8a08f45af1e6bdc7?v=193f25573a1e8094ba60000cdb854426"
+      href="/"
       variant="primary"
       size="large"
     >
