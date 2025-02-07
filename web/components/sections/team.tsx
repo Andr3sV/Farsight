@@ -12,19 +12,18 @@ import { RaycastLogo } from "../logos/raycast";
 import { RetoolLogo } from "../logos/retool";
 import { VercelLogo } from "../logos/vercel";
 
-export const Clients = () => (
+export const Team = () => (
   <>
     <p className="mb-12 text-center text-lg text-white md:text-xl">
       <span className="text-primary-text">
-        Powering the world’s best AI teams.
+        The dream team.
       </span>
-      <br className="hidden md:block" /> From next-gen startups to established
-      enterprises.
+      <br className="hidden md:block" /> This is the team that make this possible.
     </p>
 
     <div className="flex flex-wrap justify-around gap-x-6 gap-y-8 [&_svg]:max-w-[16rem] [&_svg]:basis-[calc(50%-12px)] md:[&_svg]:basis-[calc(16.66%-20px)]">
-      <OrbidiLogo className="w-[10rem] h-auto md:w-[12rem]" />
-      <RampLogo />
+    <OrbidiLogo className="w-[10rem] h-auto md:w-[12rem]" />
+    <RampLogo />
       <LoomLogo className="hidden md:block" />
       <VercelLogo />
       <DescriptLogo className="hidden md:block" />
