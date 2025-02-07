@@ -1,7 +1,7 @@
 export const Smarter = () => (
     <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="-135 -50 500 300"
+    viewBox="-185 -50 600 300"
     width="100%"
     height="100%"
     fill="none"

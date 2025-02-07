@@ -1,6 +1,6 @@
 export const NoComplexity = () => (
     <svg
-    viewBox="-20 10 600 227"
+    viewBox="-175 15 900 227"
     width="100%"
     height="100%"
     fill="none"

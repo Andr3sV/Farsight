@@ -1,6 +1,6 @@
 export const AiDriven = () => (
     <svg
-    viewBox="0 0 500 227"
+    viewBox="-240 50 950 227"
     width="100%"
     height="100%"
     fill="none"
