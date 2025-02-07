@@ -19,7 +19,7 @@ export const HomepageHero = () => (
       <br className="hidden md:block" /> of small businesses
     </HeroTitle>
     <HeroSubtitle className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
-      Farsight unlocks real-time, structured insights on millions of small business and freelancers
+      Farsights unlocks real-time, structured insights on millions of small business and freelancers.
       <br className="hidden md:block" /> Supercharge AI models, enhance decision-making, and fuel next-gen intelligence.
     </HeroSubtitle>
     <Button

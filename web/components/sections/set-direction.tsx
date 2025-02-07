@@ -18,7 +18,7 @@ export const SetDirection = () => {
           <>
             The competitive edge
             <br />
-            of Farsight
+            of Farsights
           </>
         }
         imageSize="large"

@@ -3,7 +3,7 @@ export const ZapIllustration = () => (
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 425 518"
     width="425"
-    height="518"
+    height="590"
     fill="none"
     className="max-h-full max-w-full"
   >

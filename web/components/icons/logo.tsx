@@ -5,7 +5,7 @@ export const Logo = ({ className }: { className?: string }) => (
     viewBox="0 0 64 64"
     fill="#EEEFFC"
     color="#EEEFFC"
-    aria-label="Linear Logotype"
+    aria-label="Farsights Logotype"
     xmlns="http://www.w3.org/2000/svg"
     className={className}
   >
