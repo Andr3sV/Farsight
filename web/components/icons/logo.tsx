@@ -3,13 +3,41 @@ export const Logo = ({ className }: { className?: string }) => (
     width="64"
     height="64"
     viewBox="0 0 64 64"
-    fill="#EEEFFC"
-    color="#EEEFFC"
-    aria-label="Farsights Logotype"
+    fill="none"
     xmlns="http://www.w3.org/2000/svg"
     className={className}
+    aria-label="Farsights Logotype"
   >
-    <path fillRule="evenodd" clip-rule="evenodd" d="M13.3272 65.0699C64.7343 -21.69 191.015 -21.69 242.423 65.0699C260.193 95.0609 260.193 132.272 242.423 162.263C191.015 249.024 64.7343 249.024 13.3272 162.263C-4.44241 132.272 -4.44241 95.0609 13.3272 65.0699ZM90.4405 114.445C90.4405 93.6813 107.196 76.8697 127.868 76.8697C148.544 76.8697 165.31 93.6855 165.31 114.445C165.31 135.189 148.545 152.006 127.868 152.006C107.193 152.006 90.4405 135.194 90.4405 114.445ZM127.868 59.2697C97.5066 59.2697 72.9033 83.9647 72.9033 114.445C72.9033 144.914 97.5083 169.606 127.868 169.606C158.224 169.606 182.847 144.918 182.847 114.445C182.847 83.961 158.225 59.2697 127.868 59.2697Z" fill="white"/>
+    {/* Círculo Externo */}
+    <circle cx="32" cy="32" r="30" stroke="url(#gradient1)" strokeWidth="3" fill="none" />
+
+    {/* Trayectoria de Datos */}
+    <path
+      d="M10 32C16 22 26 16 38 16C50 16 58 26 62 32"
+      stroke="url(#gradient2)"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+
+    {/* Punto Central de Inteligencia */}
+    <circle cx="32" cy="32" r="5" fill="url(#gradient3)" />
+
+    {/* Definición de Gradientes */}
+    <defs>
+      <linearGradient id="gradient1" x1="0" y1="32" x2="64" y2="32" gradientUnits="userSpaceOnUse">
+        <stop stopColor="#EEEFFC" />
+        <stop offset="1" stopColor="#6663F6" />
+      </linearGradient>
+      <linearGradient id="gradient2" x1="10" y1="32" x2="62" y2="32" gradientUnits="userSpaceOnUse">
+        <stop stopColor="#7877C6" />
+        <stop offset="1" stopColor="#6663F6" />
+      </linearGradient>
+      <radialGradient id="gradient3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse">
+        <stop stopColor="#EEEFFC" />
+        <stop offset="1" stopColor="#6663F6" stopOpacity="0.7" />
+      </radialGradient>
+    </defs>
   </svg>
 );
 
