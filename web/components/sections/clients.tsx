@@ -5,6 +5,7 @@ import { DescriptLogo } from "../logos/descript";
 import { LoomLogo } from "../logos/loom";
 import { MercuryLogo } from "../logos/mercury";
 import { OpenSeaLogo } from "../logos/opensea";
+import { OrbidiLogo } from "../logos/orbidi";
 import { PitchLogo } from "../logos/pitch";
 import { RampLogo } from "../logos/ramp";
 import { RaycastLogo } from "../logos/raycast";
@@ -22,11 +23,11 @@ export const Clients = () => (
     </p>
 
     <div className="flex flex-wrap justify-around gap-x-6 gap-y-8 [&_svg]:max-w-[16rem] [&_svg]:basis-[calc(50%-12px)] md:[&_svg]:basis-[calc(16.66%-20px)]">
-      <RampLogo />
+    <OrbidiLogo className="w-[10rem] h-auto md:w-[12rem]" />
+    <RampLogo />
       <LoomLogo className="hidden md:block" />
       <VercelLogo />
       <DescriptLogo className="hidden md:block" />
-      <CashAppLogo />
       <RaycastLogo />
       <MercuryLogo />
       <RetoolLogo />
