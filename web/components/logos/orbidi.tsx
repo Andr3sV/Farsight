@@ -1,7 +1,7 @@
 export const OrbidiLogo = ({ className }: { className?: string }) => (
     <svg
       className={className}
-      viewBox="0 0 4096 764"
+      viewBox="-500 0 7000 764"
       fill="none"
       focusable="false"
       xmlns="http://www.w3.org/2000/svg"
